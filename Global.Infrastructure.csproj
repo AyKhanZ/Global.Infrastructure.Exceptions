@@ -4,6 +4,10 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Authors>Aykhan Zeynalov</Authors>
+        <Company>Baim organization</Company>
+        <Title>Global.Infrastructure.Exceptions</Title>
+        <Description>Библиотека Baim.Global.Infrastructure.Exceptions предоставляет единый набор исключений для микросервисов проекта Baim, упрощая обработку ошибок и повышение надежности системы. Библиотека охватывает общие исключения для различных доменов, таких как Identity, Account, Marketing, Vacancy, и другие. Это позволяет централизовать управление исключениями, улучшить читаемость кода и обеспечить стандартизацию обработки ошибок в микросервисной архитектуре Baim.</Description>
     </PropertyGroup>
 
     <ItemGroup>
