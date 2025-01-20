@@ -2,10 +2,16 @@
 
 public enum VacancyErrorType
 {
+    WorkExperienceNotFound,
+    EducationNotFound,
+    PersonalInfoNotFound,
+    ContactInfoNotFound,
+    AdditionalInfoNotFound,
     VacancyNotFound,
     ResumeNotFound,
 
     VacancyAlreadyExists,
     ResumeAlreadyExists,
-    UserAlreadyExists,
+    
+    VacancyNotActual
 }

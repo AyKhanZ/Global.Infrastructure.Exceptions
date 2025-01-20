@@ -5,6 +5,10 @@ public enum MarketingErrorType
     CRMNotFound,
     NewsNotFound,
     PartnerNotFound,
-    PartnerAlreadyExists,
     TranslationNotFound,
+    FileNotFound,
+    
+    InvalidRequest,
+    
+    PartnerAlreadyExists,
 }
